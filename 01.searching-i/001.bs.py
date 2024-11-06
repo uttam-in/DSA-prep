@@ -26,5 +26,8 @@ print(index)
 # SC = O(1)
 
 # Why Use <= Instead of <:
-# Single Element Check: When low equals high, the subarray contains a single element. It's essential to check this element to determine if it matches the target value.
-# Termination Condition: If the target value is not found, the loop will eventually adjust low to be greater than high (low > high), at which point the loop terminates, indicating that the target is not present in the array.
+# Single Element Check: When low equals high, the subarray contains a single element. 
+# It's essential to check this element to determine if it matches the target value.
+# Termination Condition: If the target value is not found, the loop will eventually adjust 
+# low to be greater than high (low > high), at which point the loop terminates, indicating 
+# that the target is not present in the array.
